@@ -30,8 +30,7 @@ import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import com.sun.tools.apt.Main;
+import java.util.Random;
 
 public class LevelUpPvp extends JavaPlugin implements Listener{
 	public final Logger logger = Logger.getLogger("Minecraft");
