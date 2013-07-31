@@ -1,0 +1,19 @@
+main: me.ryguy0021.leveluppvp.LevelUpPvp
+name: LevelUpPvp
+version: 1.0
+author: ryguy0021
+description: Does Stuff
+commands:
+  shop:
+    description: Opens a Shop
+  coins:
+    description: Tells you your amount of coins
+  join:
+    description: Joins you into the game
+permissions:
+  leveluppvp.drop:
+    description: Allows players to drop items
+    default: op
+  leveluppvp.break:
+    description: Allows you to break blocks
+    default: op
